@@ -9,21 +9,8 @@
 
 
 
-<details>
-  <summary>📌 Tópicos</summary>
-  <ol>
-    <li><a href="#-introdução">Introdução</a></li>
-    <li><a href="#-problema-2">Problema 2</a></li>
-    <li><a href="#-problema-3">Problema 3</a></li>
-    <li><a href="#-makefile">MakeFile</a></li>
-    <li><a href="#-contato">Contato</a></li>
-  
-  </ol>
-</details>
-
-
-
 ## 👋 Introdução 
+Este repositório contém a solução da Prática № 1 da disciplina de Algoritmos e Estruturas de Dados II, ministrada pelo professor Michel Pires Dias no CEFET-MG, campus V. Os exercícios propostos têm como objetivo explorar e implementar conceitos relacionados a árvores binárias de busca e estruturas balanceadas, abordando diferentes operações, como inserção, remoção, cálculo da altura, e aplicação prática em problemas reais.
 
 
 ## Problema 2
@@ -40,17 +27,8 @@ Neste problema, o objetivo é desenvolver um dicionário eletrônico utilizando 
 3. **Otimizações de Desempenho**: Explorar estratégias para balancear a árvore (como AVL ou Red-Black) e minimizar o uso de memória sem comprometer a velocidade de busca.
 4. **Testes e Métricas**: Simular buscas e inserções em diferentes tamanhos de dicionários para avaliar o tempo de resposta e justificar as escolhas estruturais.
 
-
-## ⛏ Makefile
-
-O Makefile é um utilitário que automatiza o processo de compilação e execução de programas. Aqui estão os principais comandos do Makefile para este projeto:
-
-| Comando      | Descrição                               |
-|--------------|-----------------------------------------|
-| `make`       | Compila o programa.                     |
-| `make run`   | Executa o programa com o arquivo de entrada fornecido. |
-| `make clean` | Remove os arquivos compilados.          |
-
+### Documentação Completa das Respostas
+Para acessar um documento detalhado com todas as respostas desta prática, clique [aqui](https://github.com/mairaallacerda/Pratica1-AEDSII/blob/main/Prática_1_AEDS_II.pdf)
 
 ## 📧 Contato
 
