@@ -18,7 +18,7 @@ Node* inserir(Node* raiz, const std::string& palavra) {
     return raiz;
 }
 
-// Coleta sugestões de palavras que começam com um prefixo
+// Coleta palavras com um prefixo específico
 void coletarSugestoes(Node* raiz, const std::string& prefixo, std::vector<std::string>& sugestoes) {
     if (raiz == nullptr) {
         return;
@@ -30,7 +30,7 @@ void coletarSugestoes(Node* raiz, const std::string& prefixo, std::vector<std::s
     coletarSugestoes(raiz->right, prefixo, sugestoes);
 }
 
-// Função principal de autocompletar
+// Busca por sugestões
 std::vector<std::string> autocompletar(Node* raiz, const std::string& prefixo) {
     std::vector<std::string> sugestoes;
     coletarSugestoes(raiz, prefixo, sugestoes);
